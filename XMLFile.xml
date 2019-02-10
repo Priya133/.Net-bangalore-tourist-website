@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://localhost:22730/WebSite57/images/img1.jpg</ImageUrl>
+    <NavigateUrl> https://www.google.com/  </NavigateUrl>
+    <AlternateText>  Image not available  </AlternateText>
+    <Imressions>  20  </Imressions>
+    <Keyword> Image   </Keyword>
+    
+    
+  </Ad>
+
+
+
+  <Ad>
+    <ImageUrl>http://localhost:22730/WebSite57/images/img2.jpg</ImageUrl>
+    <NavigateUrl> https://www.google.com/  </NavigateUrl>
+    <AlternateText>  its desert  </AlternateText>
+    <Imressions>  20  </Imressions>
+    <Keyword> Flowers   </Keyword>
+
+
+  </Ad>
+
+
+
+  <Ad>
+    <ImageUrl>http://localhost:22730/WebSite57/images/img3.jpg</ImageUrl>
+    <NavigateUrl> https://www.google.com/  </NavigateUrl>
+    <AlternateText>  Its hydrangeas  </AlternateText>
+    <Imressions>  20  </Imressions>
+    <Keyword> Gifts   </Keyword>
+
+
+  </Ad>
+
+
+  <Ad>
+    <ImageUrl>http://localhost:22730/WebSite57/images/img4.jpg</ImageUrl>
+    <NavigateUrl> https://www.google.com/  </NavigateUrl>
+    <AlternateText>  Its hydrangeas  </AlternateText>
+    <Imressions>  20  </Imressions>
+    <Keyword> Gifts   </Keyword>
+
+
+  </Ad>
+
+
+
+  <Ad>
+    <ImageUrl>http://localhost:22730/WebSite57/images/img5.jpg</ImageUrl>
+    <NavigateUrl> https://www.google.com/  </NavigateUrl>
+    <AlternateText>  Its hydrangeas  </AlternateText>
+    <Imressions>  20  </Imressions>
+    <Keyword> Gifts   </Keyword>
+
+
+  </Ad>
+
+
+
+  <Ad>
+    <ImageUrl>http://localhost:22730/WebSite57/images/img6.JPG</ImageUrl>
+    <NavigateUrl> https://www.google.com/  </NavigateUrl>
+    <AlternateText>  Its hydrangeas  </AlternateText>
+    <Imressions>  20  </Imressions>
+    <Keyword> Gifts   </Keyword>
+
+
+  </Ad>
+</Advertisements>

@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage1.master.cs" Inherits="MasterPage1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Bangalore City</title>
+  
+    <style type="text/css">
+        .style2
+        {
+            height: 362px;
+        }
+        .style3
+        {
+            color: #FF9933;
+        }
+    </style>
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+   
+    <table border="0" width="1328">
+    <tr>
+    <embed src="banner2.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="1328" height="250" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed>
+    </tr>
+    
+     <tr>
+     <td colspan="2" align="left" height="20" bgcolor="grey">
+         <asp:Menu 
+             ID="Menu2" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" 
+             Font-Names="Verdana" Font-Size="Large" ForeColor="#990000" 
+             Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="10px" 
+             Width="1330px">
+         <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+         <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+         <DynamicMenuStyle BackColor="#FFFBD6" />
+         <DynamicSelectedStyle BackColor="#FFCC66" />
+         <Items>
+             <asp:MenuItem Text="HOME" Value="New Item" NavigateUrl="~/Homepage.aspx"></asp:MenuItem>
+             <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+             <asp:MenuItem Text="GALLERY" Value="New Item" NavigateUrl="~/Gallery.aspx"></asp:MenuItem>
+             <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+             <asp:MenuItem Text="TOURISM" Value="New Item">
+                 <asp:MenuItem NavigateUrl="~/Palace.aspx" Text="Palace"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/Lalbagh.aspx" Text="Lal Bhag" Value="Lal Bhag">
+                 </asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/Iskcon.aspx" Text="Iskcon Temple" 
+                     Value="Iskon Temple"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/cubbonpark.aspx" Text="Cubbon Park" 
+                     Value="Cubbon Park"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/Bannerghatta.aspx" Text="Bannerghatta" 
+                     Value="Bannerghatta"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/Vidhana.aspx" Text="Vidhana Soudha" 
+                     Value="Vidhana Soudha"></asp:MenuItem>
+             </asp:MenuItem>
+             <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+             <asp:MenuItem Text="EDUCATION" Value="New Item" NavigateUrl="~/Education.aspx"></asp:MenuItem>
+             <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+             <asp:MenuItem Text="INDUSTRIES" Value="New Item" 
+                 NavigateUrl="~/industries.aspx"></asp:MenuItem>
+             <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+             <asp:MenuItem Text="FEEDBACK" Value="FEEDBACK" NavigateUrl="~/Feedback.aspx"></asp:MenuItem>
+             <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+             <asp:MenuItem Text="CONTACT US" Value="CONTACT US" 
+                 NavigateUrl="~/contactus.aspx"></asp:MenuItem>
+         </Items>
+         <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+         <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+         <StaticSelectedStyle BackColor="#FFCC66" />
+         </asp:Menu>
+         </td>
+     </tr>
+  
+    <tr>
+     <td bgcolor="#ffcc66"  valign="top" class="style2">
+     <div style="width: 200px; background-color: "">
+ <marquee direction="up" style=" width: 200px; margin-bottom: 0px;" >
+<scrollamount="1"><p>HC bars Lokayukta, Upalokayuta from ordering in-house inquiry</p><p>Kiwi lower order helps team draw level</p>
+<p>No CET Counseling for second round on Thursday</p><p>SC tells govt: Hold BBMP elections within 3 months</p><p>Srujan Lokesh at the press meet of Luv U Alia in Bengaluru</p>
+<p>crime Much-married HIV-positive man gets teenager pregnant</p><img src="welcome%20to%20bangalore.jpg" /></scrollamount></marquee>
+    
+         <br />
+         <br />
+         
+   </div>
+
+     </td>
+     
+     <td width="1128" bgcolor="white" background="brown.gif" class="style2" valign="top">
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+         <p>Area to put in the child pages</p>
+         </asp:ContentPlaceHolder>
+     </td>
+    
+     </tr>
+
+     <tr>
+     <td colspan="2" align="center" height="20" bgcolor="brown" class="style3">@2011-2015 
+         Bangalore City All Right Reserved</td>
+     </tr>
+  
+    </table>
+
+        
+    </div>
+    </form>
+</body>
+</html>
